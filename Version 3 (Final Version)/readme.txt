@@ -22,6 +22,7 @@ AddInv.py: Contains functions for adding items to the inventory.
 EditInv.py: Contains functions for editing items in the inventory.
 RemInv.py: Contains functions for removing items from the inventory.
 Inventory.py: Contains functions for importing and exporting inventory data from/to the database.
+UserAuth.py: Contains functions for user registration and authentication.
 
 Setup guide:
 
