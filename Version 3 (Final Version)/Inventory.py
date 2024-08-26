@@ -11,7 +11,7 @@ def import_inventory(file_name):
     inventory = []
     
     try:
-        # Use context manager to handle the database connection
+        # Handle the database connection
         with sqlite3.connect(file_name) as conn:
             cursor = conn.cursor()
             # Execute SQL query to fetch inventory data
@@ -28,7 +28,7 @@ def import_inventory(file_name):
 
 def export_inventory(file_name, inventory):
     try:
-        # Use context manager to handle the database connection
+        # Handle the database connection
         with sqlite3.connect(file_name) as conn:
             cursor = conn.cursor()
             
