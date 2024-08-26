@@ -9,7 +9,7 @@ Remove items from the inventory
 File guide:
 
 setup_database.py: Sets up the SQLite database and tables.
-main.py: Main application file with the Tkinter GUI.
+main.py: Main application file.
 AddInv.py: Contains functions for adding items to the inventory.
 EditInv.py: Contains functions for editing items in the inventory.
 RemInv.py: Contains functions for removing items from the inventory.
