@@ -17,8 +17,7 @@ def create_tables():
     )
     ''')
 
-    # Create an admin user (optional setup for initial admin)
-    # Note: Use a secure password in real scenarios; "admin123" is an example
+    # admin123 is an example password and definitely not advisable in a real world scenario
     password = bcrypt.hashpw("admin123".encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
     cursor.execute('''
     INSERT OR IGNORE INTO users (username, password) VALUES (?, ?)
